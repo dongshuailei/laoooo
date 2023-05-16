@@ -1,0 +1,248 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #696969;
+}
+
+#box {
+  width: 100%;
+  height: 40px;
+}
+
+#box1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px 0px 15px;
+  color: #777778;
+}
+
+#box1 #boxyou {
+  display: flex;
+}
+
+#box1 #boxyou p {
+  padding-right: 20px;
+}
+
+#box1 #boxzuo:hover img {
+  cursor: pointer;
+}
+
+#box1 #boxyou p:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+#box2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#box2zuo {
+  width: 60%;
+  height: 300px;
+}
+
+#box2zuo #boxbtn {
+  display: flex;
+}
+
+#box2zuo #boxbtn button {
+  width: 122px;
+  height: 38px;
+  background-color: #606161;
+  border: 1px solid #7d7d7d;
+  color: #dddddd;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#box2zuo #boxbtn button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#box2zuo #boxta table {
+  width: 100%;
+  color: #c6c6c6;
+}
+
+#box2zuo #boxta table tr th:nth-child(2) {
+  float: left;
+}
+
+#box2zuo #boxta table tr th:hover {
+  color: #fff;
+}
+
+#box2zuo #boxta table tr th {
+  font-weight: lighter;
+}
+
+#box2zuo #boxta table tr {
+  line-height: 45px;
+  height: 45px;
+}
+
+#box2you {
+  width: 186px;
+  height: 186px;
+  text-align: center;
+  color: #c9c9c9;
+}
+
+#box2img img {
+  background: url("https://y.qq.com/ryqq/static/media/album_cover_player.8dfd80d6.png?max_age=2592000")
+    no-repeat;
+  background-size: 100%;
+  background-position: 10px 0px;
+  width: 186px;
+  height: 186px;
+}
+
+#box2you #box2img p:hover {
+  color: #fff;
+}
+
+#box2xia {
+  height: 250px;
+  margin-top: 10%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+#box2xia::-webkit-scrollbar {
+  display: none;
+}
+
+#box2xia pre {
+  line-height: 35px;
+  margin-left: -100%;
+  font-size: 25px;
+}
+
+#zuixiabi {
+  display: flex;
+  margin-top: 25%;
+  position: fixed;
+  bottom: 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1850px;
+  margin-bottom: 50px;
+}
+
+.zuixiabi1 {
+  width: 30%;
+}
+
+.zuixiabi1 button {
+  width: 70px;
+  margin-left: 10%;
+  background-color: #696969;
+  border: 1px solid #696969;
+  font-size: 35px;
+}
+
+.zuixiabi3 {
+  width: 10%;
+  background-color: aqua;
+}
+
+.zuixiabi2 {
+  width: 50%;
+}
+
+.zuixiabi2 iframe {
+  width: 350px;
+}
+footer {
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  height: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+footer .ft {
+  width: 1300px;
+  height: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+footer .ft .zou {
+  width: 200px;
+  height: 82px;
+  margin-top: 5px;
+}
+footer .ft .zhongjian {
+  width: 645px;
+  height: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+footer .ft .zhongjian .shang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 645px;
+}
+footer .ft .zhongjian .xia {
+  margin-top: -20px;
+}
+footer .ft .you {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 430px;
+  height: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+footer .ft .you .chunjing {
+  width: 74px;
+  height: 26px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+footer .ft .you .chunjing i {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 20px;
+} /*# sourceMappingURL=css.css.map */
